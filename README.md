@@ -320,10 +320,9 @@ The wiring diagram below shows all Robo Cop components connected to the ESP32 �
 5. In `robocop.ino`, before acting on a flame reading the firmware first checks the **water-level sensor**; if the tank is below `LOW_WATER_LEVEL_THRESHOLD`, actuators are held off regardless of flame state.
 6. Otherwise, the ESP32 activates the **relay module**, closing the circuit for the **servo motor** and the **water pump**.
 7. The **servo motor sweeps 0°→180°→0°**, actuating the water pump's hand-pump mechanism, driving water from the tank onto the fire — completing the autonomous fire-extinguishing action.
+![Subsystem 1](Screenshot%2026-08-17%145645.png)
 
 ---
-
-![Subsystem 1](Screenshot%2026-08-17%145645.png)
 
 
 ## 8. Subsystem 2 — Remote Control Car (Mobility & Vision Unit)
