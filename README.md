@@ -2,7 +2,7 @@
 
 **An ESP32-Based Autonomous Security & Fire-Safety Robot with a Wi-Fi Remote-Controlled Companion Car**
 ---
-![Autonomous Robo Cop](Screenshot%2026-08-17%145628.png)
+![Autonomous Robo Cop](robo-cop.png)
 
 
 ## Table of Contents
