@@ -8,7 +8,6 @@ College of Electrical & Mechanical Engineering (EME), National University of Sci
 | | |
 |---|---|
 | **Team** | Talha Arshad (410179) · Sohaib Afzal (411928) · Osaid Amjad (410196) · Muhammad Taha (417609) · Furqan Ahmed Fareed (414773) · Muhammad Junaid (432003) |
-| **Course instructor (final paper)** | LE Umair Khalil |
 | **Course instructors (initial project report)** | Asst. Prof. Dr. Sagheer Khan · LE Ayesha Khanam |
 | **Initial submission date** | 30/12/2024 |
 | **UN Sustainable Development Goals addressed** | SDG 9 — Industry, Innovation and Infrastructure · SDG 11 — Sustainable Cities and Communities |
