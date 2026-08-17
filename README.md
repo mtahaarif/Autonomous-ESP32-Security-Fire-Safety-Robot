@@ -1,19 +1,9 @@
 # The Autonomous Robo Cop
 
 **An ESP32-Based Autonomous Security & Fire-Safety Robot with a Wi-Fi Remote-Controlled Companion Car**
-
-EC310 — Microcontroller and Microprocessor Based Design B, DE‑44 Computers, Syndicate‑B
-College of Electrical & Mechanical Engineering (EME), National University of Sciences and Technology (NUST)
-
-| | |
-|---|---|
-| **Team** | Talha Arshad (410179) · Sohaib Afzal (411928) · Osaid Amjad (410196) · Muhammad Taha (417609) · Furqan Ahmed Fareed (414773) · Muhammad Junaid (432003) |
-| **Course instructors (initial project report)** | Asst. Prof. Dr. Sagheer Khan · LE Ayesha Khanam |
-| **Initial submission date** | 30/12/2024 |
-| **UN Sustainable Development Goals addressed** | SDG 9 — Industry, Innovation and Infrastructure · SDG 11 — Sustainable Cities and Communities |
-| **Demo video** | https://drive.google.com/drive/folders/103p0UOKOJB4-2O2NFi9lzOHy3o0UlupQ |
-
 ---
+![Autonomous Robo Cop](Screenshot%2026-08-17%145628.png)
+
 
 ## Table of Contents
 
@@ -47,7 +37,6 @@ College of Electrical & Mechanical Engineering (EME), National University of Sci
 13. [Note on Project Documentation History](#13-note-on-project-documentation-history)
 14. [Conclusion](#14-conclusion)
 15. [Future Work](#15-future-work)
-16. [Credits & References](#16-credits--references)
 
 ---
 
@@ -334,6 +323,9 @@ The wiring diagram below shows all Robo Cop components connected to the ESP32 �
 
 ---
 
+![Subsystem 1](Screenshot%2026-08-17%145645.png)
+
+
 ## 8. Subsystem 2 — Remote Control Car (Mobility & Vision Unit)
 
 > **Reminder:** everything in this section describes the mobility subsystem **as documented in the team's project report**. No corresponding firmware (Wi‑Fi, HTTP server, or L298N motor-driver code) exists in this repository at this time — see [§5](#5-repository-contents) and [§6](#6-firmware-walkthrough).
@@ -407,6 +399,8 @@ User (web UI) → Wi-Fi → ESP32-CAM (command parser) → GPIO signals
 ```
 
 ---
+![Subsystem 1](Screenshot%2026-08-17%145739.png)
+
 
 ## 9. Physical Build
 
@@ -487,24 +481,3 @@ Building on the issues and limitations identified during development, natural ne
 
 ---
 
-## 16. Credits & References
-
-**Team:** Talha Arshad (410179) · Sohaib Afzal (411928) · Osaid Amjad (410196) · Muhammad Taha (417609) · Furqan Ahmed Fareed (414773) · Muhammad Junaid (432003)
-
-**Course:** EC310 — Microcontroller and Microprocessor Based Design B, DE‑44 Computers, Syndicate‑B, EME, NUST
-
-**UN SDGs referenced:** Goal 9 (Industry, Innovation and Infrastructure), Goal 11 (Sustainable Cities and Communities)
-
-**Key hardware/technology referenced:**
-- ESP32 / ESP32‑CAM microcontrollers (Espressif)
-- PIR (passive infrared) motion sensing
-- IR flame/photodiode sensing
-- MQ2 gas/smoke sensor (SnO₂ sensing element)
-- HW‑038 analog water-level sensor
-- L298N dual H‑bridge motor driver
-- Servo motor (PWM position control), via the [ESP32Servo](https://github.com/madhephaestus/ESP32Servo) Arduino library
-- 5V electromagnetic relay switching
-
-**Demo video:** https://drive.google.com/drive/folders/103p0UOKOJB4-2O2NFi9lzOHy3o0UlupQ
-</content>
-</invoke>
