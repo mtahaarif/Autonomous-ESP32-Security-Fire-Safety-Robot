@@ -397,7 +397,6 @@ User (web UI) → Wi-Fi → ESP32-CAM (command parser) → GPIO signals
 ```
 
 ---
-![Subsystem 1](Screenshot%2026-08-17%145739.png)
 
 
 ## 9. Physical Build
